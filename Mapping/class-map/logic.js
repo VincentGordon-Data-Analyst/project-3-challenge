@@ -12,7 +12,10 @@ var myMap = L.map("map", {
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(myMap);
 
-  countries = ['USA', 'Canada', 'China', 'Mexico', 'UK', 'Australia', 'Nertherlands', 'Switzerland', 'France', 'Germany', 'Denmark', 'Belgim', 'South Korean', 'Norway', 'Taiwan', 'Slovenia', 'Australia', 'Ukraine', 'Spain', 'Holland', 'Japan'];
+  
+  d3.json("/location.json").then(function(data) {
+    console.log(data);
+  });
 
 
 
