@@ -15,29 +15,13 @@ var myMap = L.map("map", {
   
   d3.json("/location.json").then(function(data) {
     console.log(data);
+
+    var html = [];
+    for (var i = 0; i < data.length; i++) {
+        var state = data[i]
+
+        html.push(`<option><select>` + state["location"] + `</select></option>`);
+    }     
+    
+    document.getElementById("selectCountry").innerHTML = html.join("");
   });
-
-
-
-
-
-  // var legend = L.control({position: 'topright'});
-  // const selectCountry = document.getElementById('selectCountry');
-  // legend.onAdd = function () {
-  //   var div = L.DomUtil.create('div', 'info legend');
-
-  
-
-  //   for (var i = 0; i < countries.length; i++){
-  //     var country = countries[i];
-
-  //     div.innerHTML = `<select><option>` + {country} + `</option></select>`;       
-      
-  //     div.firstChild.onmousedown = div.firstChild.ondblclick = L.DomEvent.stopPropagation;   
-  //   }
-   
-  //   return div;
-  // };
-  // legend.addTo(myMap)
-  
-
