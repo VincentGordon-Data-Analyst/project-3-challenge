@@ -1,0 +1,157 @@
+[
+    {
+        "location": "CA, USA",
+        "lat": 36.7014631,
+        "lon": -118.755997
+    },
+    {
+        "location": "WA, USA",
+        "lat": 47.2868352,
+        "lon": -120.212613
+    },
+    {
+        "location": "GA, USA",
+        "lat": 32.3293809,
+        "lon": -83.1137366
+    },
+    {
+        "location": "MO, USA",
+        "lat": 38.7604815,
+        "lon": -92.5617875
+    },
+    {
+        "location": "AR, USA",
+        "lat": 35.2048883,
+        "lon": -92.4479108
+    },
+    {
+        "location": "IL, USA",
+        "lat": 40.0796606,
+        "lon": -89.4337288
+    },
+    {
+        "location": "FL, USA",
+        "lat": 27.7567667,
+        "lon": -81.4639835
+    },
+    {
+        "location": "SC, USA",
+        "lat": 33.6874388,
+        "lon": -80.4363743
+    },
+    {
+        "location": "MD, USA",
+        "lat": 39.5162401,
+        "lon": -76.9382069
+    },
+    {
+        "location": "UT, USA",
+        "lat": 39.4225192,
+        "lon": -111.714358
+    },
+    {
+        "location": "PA, USA",
+        "lat": 40.9699889,
+        "lon": -77.7278831
+    },
+    {
+        "location": "HA, USA",
+        "lat": 31.3665768,
+        "lon": -85.84823480692984
+    },
+    {
+        "location": "AL, USA",
+        "lat": 37.1522712,
+        "lon": -91.4434708
+    },
+    {
+        "location": "MI, USA",
+        "lat": 39.7837304,
+        "lon": -100.445882
+    },
+    {
+        "location": "NV, USA",
+        "lat": 39.5158825,
+        "lon": -116.8537227
+    },
+    {
+        "location": "NY, USA",
+        "lat": 43.1561681,
+        "lon": -75.8449946
+    },
+    {
+        "location": "OR, USA",
+        "lat": 43.9792797,
+        "lon": -120.737257
+    },
+    {
+        "location": "AZ, USA",
+        "lat": 34.395342,
+        "lon": -111.763275
+    },
+    {
+        "location": "NJ, USA",
+        "lat": 40.0757384,
+        "lon": -74.4041622
+    },
+    {
+        "location": "NC, USA",
+        "lat": 35.6729639,
+        "lon": -79.0392919
+    },
+    {
+        "location": "ID, USA",
+        "lat": 43.6447642,
+        "lon": -114.015407
+    },
+    {
+        "location": "OH, USA",
+        "lat": 40.2253569,
+        "lon": -82.6881395
+    },
+    {
+        "location": "IA, USA",
+        "lat": 41.9216734,
+        "lon": -93.3122705
+    },
+    {
+        "location": "VA, USA",
+        "lat": 38.8907693,
+        "lon": -77.3482828
+    },
+    {
+        "location": "CO, USA",
+        "lat": 38.7251776,
+        "lon": -105.607716
+    },
+    {
+        "location": "IN, USA",
+        "lat": 40.3270127,
+        "lon": -86.1746933
+    },
+    {
+        "location": "TX, USA",
+        "lat": 31.2638905,
+        "lon": -98.5456116
+    },
+    {
+        "location": "DE, USA",
+        "lat": 38.6920451,
+        "lon": -75.4013315
+    },
+    {
+        "location": "NH, USA",
+        "lat": 43.4849133,
+        "lon": -71.6553992
+    },
+    {
+        "location": "TN, USA",
+        "lat": 35.7730076,
+        "lon": -86.2820081
+    },
+    {
+        "location": "HI, USA",
+        "lat": 19.593801499999998,
+        "lon": -155.42837009716908
+    }
+]
