@@ -1,156 +1,187 @@
 [
     {
-        "location": "CA, USA",
+        "state": "California",
+        "country": "United States",
         "lat": 36.7014631,
         "lon": -118.755997
     },
     {
-        "location": "WA, USA",
+        "state": "Washington",
+        "country": "United States",
         "lat": 47.2868352,
         "lon": -120.212613
     },
     {
-        "location": "GA, USA",
+        "state": "Georgia",
+        "country": "United States",
         "lat": 32.3293809,
         "lon": -83.1137366
     },
     {
-        "location": "MO, USA",
+        "state": "Missouri",
+        "country": "United States",
         "lat": 38.7604815,
         "lon": -92.5617875
     },
     {
-        "location": "AR, USA",
+        "state": "Arkansas",
+        "country": "United States",
         "lat": 35.2048883,
         "lon": -92.4479108
     },
     {
-        "location": "IL, USA",
+        "state": "Illinois",
+        "country": "United States",
         "lat": 40.0796606,
         "lon": -89.4337288
     },
     {
-        "location": "FL, USA",
+        "state": "Florida",
+        "country": "United States",
         "lat": 27.7567667,
         "lon": -81.4639835
     },
     {
-        "location": "SC, USA",
+        "state": "South Carolina",
+        "country": "United States",
         "lat": 33.6874388,
         "lon": -80.4363743
     },
     {
-        "location": "MD, USA",
+        "state": "Maryland",
+        "country": "United States",
         "lat": 39.5162401,
         "lon": -76.9382069
     },
     {
-        "location": "UT, USA",
+        "state": "Utah",
+        "country": "United States",
         "lat": 39.4225192,
         "lon": -111.714358
     },
     {
-        "location": "PA, USA",
+        "state": "Pennsylvania",
+        "country": "United States",
         "lat": 40.9699889,
         "lon": -77.7278831
     },
     {
-        "location": "HA, USA",
+        "state": "HA",
+        "country": "United States",
         "lat": 31.3665768,
         "lon": -85.84823480692984
     },
     {
-        "location": "AL, USA",
+        "state": "Alley, MO",
+        "country": "United States",
         "lat": 37.1522712,
         "lon": -91.4434708
     },
     {
-        "location": "MI, USA",
+        "state": "United States",
+        "country": "United States",
         "lat": 39.7837304,
         "lon": -100.445882
     },
     {
-        "location": "NV, USA",
+        "state": "Nevada",
+        "country": "United States",
         "lat": 39.5158825,
         "lon": -116.8537227
     },
     {
-        "location": "NY, USA",
+        "state": "New York",
+        "country": "United States",
         "lat": 43.1561681,
         "lon": -75.8449946
     },
     {
-        "location": "OR, USA",
+        "state": "Oregon",
+        "country": "United States",
         "lat": 43.9792797,
         "lon": -120.737257
     },
     {
-        "location": "AZ, USA",
+        "state": "Arizona",
+        "country": "United States",
         "lat": 34.395342,
         "lon": -111.763275
     },
     {
-        "location": "NJ, USA",
+        "state": "New Jersey",
+        "country": "United States",
         "lat": 40.0757384,
         "lon": -74.4041622
     },
     {
-        "location": "NC, USA",
+        "state": "North Carolina",
+        "country": "United States",
         "lat": 35.6729639,
         "lon": -79.0392919
     },
     {
-        "location": "ID, USA",
+        "state": "Idaho",
+        "country": "United States",
         "lat": 43.6447642,
         "lon": -114.015407
     },
     {
-        "location": "OH, USA",
+        "state": "Ohio",
+        "country": "United States",
         "lat": 40.2253569,
         "lon": -82.6881395
     },
     {
-        "location": "IA, USA",
+        "state": "Iowa",
+        "country": "United States",
         "lat": 41.9216734,
         "lon": -93.3122705
     },
     {
-        "location": "VA, USA",
+        "state": "Vale",
+        "country": "United States",
         "lat": 38.8907693,
         "lon": -77.3482828
     },
     {
-        "location": "CO, USA",
+        "state": "Colorado",
+        "country": "United States",
         "lat": 38.7251776,
         "lon": -105.607716
     },
     {
-        "location": "IN, USA",
+        "state": "Indiana",
+        "country": "United States",
         "lat": 40.3270127,
         "lon": -86.1746933
     },
     {
-        "location": "TX, USA",
+        "state": "Texas",
+        "country": "United States",
         "lat": 31.2638905,
         "lon": -98.5456116
     },
     {
-        "location": "DE, USA",
+        "state": "Delaware",
+        "country": "United States",
         "lat": 38.6920451,
         "lon": -75.4013315
     },
     {
-        "location": "NH, USA",
+        "state": "New Hampshire",
+        "country": "United States",
         "lat": 43.4849133,
         "lon": -71.6553992
     },
     {
-        "location": "TN, USA",
+        "state": "Tennessee",
+        "country": "United States",
         "lat": 35.7730076,
         "lon": -86.2820081
     },
     {
-        "location": "HI, USA",
+        "state": "Hawaii",
+        "country": "United States",
         "lat": 19.593801499999998,
         "lon": -155.42837009716908
     }

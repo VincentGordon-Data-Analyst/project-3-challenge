@@ -16,12 +16,23 @@ var myMap = L.map("map", {
   d3.json("/location.json").then(function(data) {
     console.log(data);
 
-    var html = [];
+    // Loop through each US state and create a marker
     for (var i = 0; i < data.length; i++) {
-        var state = data[i]
+      var country = data[i];
 
-        html.push(`<option><select>` + state["location"] + `</select></option>`);
-    }     
+      L.marker([country.lat, country.lon]).bindPopup(`<h3>${country.location}</h3>`).addTo(myMap);
+
+    }
     
-    document.getElementById("selectCountry").innerHTML = html.join("");
+    // Dropdown menu
+    // var html = [];
+    // for (var i = 0; i < data.length; i++) {
+    //     var state = data[i]
+
+    //     html.push(`<option><select>` + state["location"] + `</select></option>`);
+    // }     
+    
+    // document.getElementById("selectCountry").innerHTML = html.join("");
+
+
   });
