@@ -15,7 +15,9 @@ CREATE TABLE countryTable (
 
 CREATE TABLE stateTable (
     state_id varchar(6) PRIMARY KEY,
-    state_name varchar(24) NOT NULL
+    state_name varchar(24) NOT NULL,
+	latitude decimal(8,6),
+	longitude decimal(9,6)
 );
 
 CREATE TABLE modelTable (
@@ -53,7 +55,7 @@ COPY countryTable(country_id, country_name)
 	DELIMITER ','
 	CSV HEADER;
 	
-COPY stateTable(state_id, state_name)
+COPY stateTable(state_id, state_name, latitude, longitude)
 	FROM 'C:\project3\data\states.csv'
 	DELIMITER ','
 	CSV HEADER;
@@ -68,4 +70,4 @@ COPY casesTable(cases_no, caseDate, country_id, state_id, caseDescription, death
 	DELIMITER ','
 	CSV HEADER;
 	
-SELECT * FROM casesTable;
+SELECT * FROM stateTable;
