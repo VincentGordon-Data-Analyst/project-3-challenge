@@ -11,7 +11,7 @@ from sqlalchemy import create_engine, func, inspect
 from flask import Flask, jsonify
 #####################SQL SESSION###################
 #Link to postgreSQL
-engine = create_engine("postgresql+psycopg2://postgres:ownpin@localhost:5432/Project3")
+engine = create_engine("postgresql+psycopg2://postgres:acctpin@localhost:5432/Project3")
 #reflect an existing databse into a new model
 Base = automap_base()
 #refect the tables
@@ -165,9 +165,6 @@ def fetchcasedetail(deathNo):
     finalist=[{x:y} for x,y in arraydeath]
     return jsonify(finalist)
 
-# usa = session.query(BaseballPlayer). \
-#     filter(BaseballPlayer.birth_country == 'USA').count()
-# print(f"There are {usa} players from the USA")
 
 ########## inspect original kaggel data#######
 @app.route("/state/<state>")
