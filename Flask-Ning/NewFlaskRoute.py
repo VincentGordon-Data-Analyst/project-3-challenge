@@ -11,7 +11,7 @@ from sqlalchemy import create_engine, func, inspect
 from flask import Flask, jsonify
 #####################SQL SESSION###################
 #Link to postgreSQL
-engine = create_engine("postgresql+psycopg2://postgres:Aa248202@localhost:5432/Project3")
+engine = create_engine("postgresql+psycopg2://postgres:dbcode@localhost:5432/Project3")
 #reflect an existing databse into a new model
 Base = automap_base()
 #refect the tables
