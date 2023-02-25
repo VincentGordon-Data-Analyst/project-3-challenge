@@ -11,7 +11,7 @@ from sqlalchemy import create_engine, func, inspect
 from flask import Flask, jsonify
 #####################SQL SESSION###################
 #Link to postgreSQL
-engine = create_engine("postgresql+psycopg2://postgres:dbcode@localhost:5432/Project3")
+engine = create_engine("postgresql+psycopg2://postgres:ownpin@localhost:5432/Project3")
 #reflect an existing databse into a new model
 Base = automap_base()
 #refect the tables
@@ -134,8 +134,6 @@ def selectmodeltable():
     holder=[]
     for row in modeldata:
         holder.append({"model_id": row.model_id, "model": row.model})
-#     # *7 to normalize rember to down back
-            # *7 to normalize rember to down back
         print(holder)
     with open('ModeltableAPI.json','w') as f:
         json.dump(holder, f, indent=4)
