@@ -89,66 +89,7 @@ function buildBarChart(countryCode) {
     });
 }
      
-
-        
-        // let teslaModels = []
-        // for (let i = 0; i < modelIds.length; i++) {
-        //     modelId = modelIds[i];
-        //     if (modelId != null) {
-        //         teslaModels.push(modelId)
-        //     }
-        // } 
-    
-        // Plots bar graph based on model deathtotal
-        // let restults = data.filter(item => item.country_id == "c001")
-        // console.log(restults[0].model_id)
-        // console.log(restults[0].deathtotal)
-    
-        // let trace1 = {
-        //     x: [restults[0].model_id],
-        //     y: [restults[0].deathtotal],
-        //     type: "bar"
-        // }
-    
-        // let traceBar = [trace1]
-    
-        // Plotly.newPlot("bar", traceBar);
-
-    
-    // // Fetch the JSON data and console.log it
-    // d3.json(casetablePath).then(function(data) {
-    //     console.log(data);
-        
-    //     // Get unqiue state ids
-    //     let stateIds =  [...new Set(data.map(item => item.state_id))];
-
-    //     let stateDeachCount = [];
-
-    //     for (let i = 0; i < stateIds.length; i++) {
-    //         eachId = stateIds[i];
-
-    //         let totalDeathCount = 0;
-    //         for (let j = 0; j < data.length; j++) {
-    //             row = data[j];
-
-    //             if (row.state_id == eachId) {
-    //                 totalDeathCount += row['deathtotal'];
-    //             }
-    //         }
-    //         stateDeachCount.push(totalDeathCount);
-    //     }
-         
-    //     var barTrace = [
-    //         {
-    //             x: stateIds,
-    //             y: stateDeachCount,
-    //             type: "bar",
-    //         }
-    //     ];
-        
-        
-    //     Plotly.newPlot('bar', barTrace)
-    // });
+    // Initialize onChange function
     function optionChanged(newData) {
         buildBarChart(newData);
     }
