@@ -41,14 +41,18 @@ d3.json(countryPath).then(function(data){
 function buildBarChart(countryCode) {
     
     d3.json(casetablePath).then(function(data) {
+        // Find distince model_ids
         let uniqueModels =  [...new Set(data.map(item => item.model_id))];
 
         let eachModel = [];
         let eachCount = []
+        
+        // Loop through unique models
         for (let i = 0; i < uniqueModels.length; i++) {
             uniqueModel = uniqueModels[i];
             
             let total = 0;
+            // Loop through json file
             for (let j = 0; j < data.length; j++) {
                 row = data[j];
                 
@@ -56,6 +60,7 @@ function buildBarChart(countryCode) {
                 if (row.country_id == countryCode && row.model_id != null && row.model_id == uniqueModel) {
                     total += row.deathtotal;
 
+                    // Push to empty arrays
                     eachModel.push(uniqueModel)
                     eachCount.push(total)
                 }
@@ -63,9 +68,20 @@ function buildBarChart(countryCode) {
             }
 
         }
-            
-
         
+        // Build bar chart for each model
+        let trace = {
+            x: eachModel,
+            y: eachCount,
+            type: "bar"
+        }
+        
+        let layout = {
+            title: "Total Deaths by Tesla Model"
+        }
+        let barTrace = [trace];
+        
+        Plotly.newPlot("bar", barTrace, layout);
     });
 }
      
