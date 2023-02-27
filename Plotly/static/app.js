@@ -7,15 +7,19 @@ modelPath = "./data/modeltable.json";
 function init(){
     let dropdownMenu = d3.select("#selDataset");
     d3.json(casetablePath).then(function() {
+
         // Add countries to dropdown menu
         for (let i = 0; i < countryIds.length; i++){
             let countryId = countryIds[i];
-    
+            
+            // Append country id to drop down menu
             dropdownMenu.append("option").property("value", countryId).text(countryId);
         }
         
+        // Get first country id
         let firstCountry = countryIds[0];
 
+        // Initialize graph on first country code
         buildBarChart(firstCountry);
         optionChanged(firstCountry);
     });
